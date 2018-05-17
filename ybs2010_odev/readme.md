@@ -1,2 +1,1 @@
-# #Css ve Html hatalarım sayfanın sağındaki özelleştirilmiş radio buttonlardan kaynaklanmaktadır.Bu butonları kendim yapamadım dışardan alıp düzenledim
-
+#Css3+svg formatındaki testten ve Html testinden başarıyla geçmiştir
