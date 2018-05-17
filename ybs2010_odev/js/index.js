@@ -17,11 +17,9 @@ $(document).ready(function(){
 	$('#left_menu a').click(function(e){
 		$('section').hide();
 		var s_id = $(this).attr("href");
-		$(s_id).animate({
-    		right: "-59%"
-		},600);
-		$(s_id).show(600);
-    			
+		$(s_id).fadeIn(1000);
 	});
+
+	
 
 });

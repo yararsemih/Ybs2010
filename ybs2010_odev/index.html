@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
 		<meta charset="utf-8">
 
 		<meta name="description" content="Online kuaför randevu sistemi">
@@ -49,15 +50,15 @@
 		<aside>
 			<div class="col-lg-7 col-md-7 col-sm-5 col-xs-10" id="side_nav">
 				<ul id="left_menu">
-					<li id="close_Lmenu"><img src="img/mc.png" alt="close_menu_icon" ><span>Menüyü Kapat</span></li>
+					<li id="close_Lmenu" class="same_color"><img src="img/mc.png" alt="close_menu_icon" ><span>Menüyü Kapat</span></li>
 
-					<li><a href="#ortaklik">Ortaklık</a></li>
-					<li><a href="#anasayfa">Anasayfa</a></li>
-					<li><a href="#hakkimizda">Hakkımızda</a></li>
-					<li><a href="#iletisim">İletişim</a></li>
+					<li><a class="same_color" href="#ortaklik">Ortaklık</a></li>
+					<li><a class="same_color" href="#anasayfa">Anasayfa</a></li>
+					<li><a class="same_color" href="#hakkimizda">Hakkımızda</a></li>
+					<li><a class="same_color" href="#iletisim">İletişim</a></li>
 				</ul>
 
-				<footer>
+				<footer class="same_color">
 					© All Rights Reserved Semih Yarar 2018
 					<div id="footer_logos">
 						<a href="#"><img alt="fb_icon" src="img/fb.png" /></a>
@@ -74,85 +75,85 @@
   				<h1>BARBER <img src="img/BarberBooklogo.png" alt="barberbooking_logo"> BOOKING</h1>
   			</header>
 		
-		<!-- radio button for pagination right on the right-->
-		<div class="radio-group">
-			<label class="control control--radio">
-				<input type="radio" name="radio" />
-				<div class="control__indicator"></div>
-			</label>
-			<label class="control control--radio">
-				<input type="radio" name="radio" checked="checked" />
-				<div class="control__indicator"></div>
-			</label>
-			<label class="control control--radio">
-				<input type="radio" name="radio"/>
-				<div class="control__indicator"></div>
-			</label>
-			<label class="control control--radio">
-				<input type="radio" name="radio" />
-				<div class="control__indicator"></div>
-			</label>
-		</div>
-		<!-- # end radio button for pagination -->
+		
 
-		<section id="anasayfa">
+		<section id="anasayfa" >
 			<div class="container">
-				<div class="col-lg-7 col-md-7 col-xs-12 col-sm-7 col-md-offset-9 " id="get-date">
+				<div class="col-lg-7 col-md-7 col-xs-12 col-sm-7 col-md-offset-9 content" id="get-date">
 
-					<div  id="gd_logo"><i class="fa fa-map-marker"></i></div>
+					<div  id="gd_logo" class="same_bgcolor"><i class="fa fa-map-marker"></i></div>
 
 					<h4><b>Konumuna En Yakın Kuaförden <br /><br /><span> Randevu Al </span></b></h4>
 
 					<div class="col-md-12" id="gd_section1">
 						<div class="row">
 							<img class="col-md-2" src="img/location.png" alt="location">
-							<button class="col-md-8"><b>Konumunu Belirle</b></button>
+							<button class="col-md-8 same_bgcolor"><b>Konumunu Belirle</b></button>
 						</div>
 					</div>
 
 					<div class="col-md-12" id="span2"><b>Yada</b></div>
 
 					
-					<select class="col-md-4 selects" id="il-select">
+					<select class="col-md-4 selects  same_bgcolor" id="il-select">
 						<option>İl Seçiniz</option>
 					</select>
 
-					<select class="col-md-4 selects" id="ilce-select">
+					<select class="col-md-4 selects  same_bgcolor" id="ilce-select">
 						<option>İlçe Seçiniz</option>
 					</select>
 
-					<button class="col-md-10 col-lg-10  col-xs-12 col-sm-8 " id="gd-submit" type="submit"><b>Randevu Al</b></button>
+					<button class="col-md-10 col-lg-10  col-xs-12 col-sm-8  same_bgcolor " id="gd-submit" type="submit"><b>Randevu Al</b></button>
 
 				</div>
 			</div>
 		</section>
 
-		<section id="ortaklik">
+		<section id="ortaklik" >
 			<div class="container">
-				<div class="col-lg-7 col-md-7 col-xs-12 col-sm-7 col-md-offset-9 ">
+				<div class="col-lg-7 col-md-7 col-xs-12 col-sm-7 col-md-offset-9 content">
 					<h2>Ortaklık Sayfası</h2>
 				</div>
 			</div>
 		</section>
 		<section id="hakkimizda">
 			<div class="container">
-				<div class="col-lg-7 col-md-7 col-xs-12 col-sm-7 col-md-offset-9 " >
+				<div class="col-lg-7 col-md-7 col-xs-12 col-sm-7 col-md-offset-9 content " >
 					<h2>Hakkımızda Sayfası</h2>
 				</div>
 			</div>
 		</section>
-		<section id="iletisim">
+		<section id="iletisim" >
 			<div class="container">
-				<div class="col-lg-7 col-md-7 col-xs-12 col-sm-7 col-md-offset-9 ">
-					<h2>İletişim Sayfası</h2>
-					<form>
-						<label >Mail adresiniz</label>
-						<input type="email" name="mail">
-						<br />
-						<label >Mail</label>
-						<textarea name="mail_content"></textarea>
-						<button type="submit">Gönder</button>
+				<div class="col-lg-7 col-md-7 col-xs-12 col-sm-7 col-md-offset-9 content">
+
+					<form class="form-horizontal">
+						<fieldset>
+							<legend><h2>İletişim Formu</h2></legend>
+							<!-- Text input-->
+							<div class="form-group">
+  								<label class="col-md-4 control-label" for="Mailadresiniz">Mail Adresiniz</label>  
+  								<div class="col-md-12">
+  									<input id="Mailadresiniz" name="Mailadresiniz" type="text" placeholder="abc@mail.com" class="form-control input-md" required="">
+  								</div>
+							</div>
+							<!-- Textarea -->
+							<div class="form-group">
+  								<label class="col-md-4 control-label" for="textarea">Mesajınız</label>
+  								<div class="col-md-12">                     
+    								<textarea class="form-control" id="textarea" name="textarea"></textarea>
+  								</div>
+							</div>
+							<!-- Button -->
+							<div class="form-group">
+  								<label class="col-md-4 control-label" for="gonder"></label>
+  								<div class="col-md-12">
+    								<button id="gonder" name="gonder" class="btn btn-block btn-primary">Gönder</button>
+  								</div>
+							</div>
+						</fieldset>
 					</form>
+
 				</div>
 			</div>
 		</section>
